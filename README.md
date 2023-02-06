@@ -117,8 +117,7 @@ Now press (Ctrl-X) to exit
     
 ### STEP 13 initilise the frappe bench & install frappe latest version 
 
-    bench init frappe-bench 
-    
+    bench init frappe-bench --frappe-branch version-13     
     cd frappe-bench/
     bench start
     
